@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+}
+/*top section*/
+.top-header{
+    width: 100;
+}
+.left-header{
+    float: left;
+    background-color: #6FC9C9;
+    padding: 10px;
+    width: 24%;
+}
+.main-content{
+    float: left;
+    width: 73%;
+    background-color: #fad900;
+    padding: 10px;
+}
+.right-header{
+    float: right;
+}
+.right-header i{
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.left-header i{
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px;
+}
+.brand-name{
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-left: 1px solid cyan;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px; 
+}
+#navbar{
+    padding: 10px 80px;
+}
+.clearfix{
+    clear: both;
+}
+/*middle section*/
+.slider img{
+    width: 100%;
+}
+.menu li:last-child{
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.color1{
+    color: #6FC9C9;
+}
+.color2{
+    color: #fad900;
+}
+.color-text{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.color-text hr{
+    width: 5%;
+    color: red;
+    background-color: red;
+    height: 5px;
+    margin-left: 47%;
+    margin-top: 10px;
+}
+.color-text-top{
+    color: rgb(4, 59, 143);
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.color-text-bottom{
+    text-align: justify;
+    padding: 0px 50px;
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/*main*/
+.aside{
+    padding: 40px 70px;
+    height: auto;
+    margin-top: 20px;  
+    
+}
+.aside-left{
+    float: left;
+    width: 35%;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 12%;
+    font-family: 'Didact Gothic', sans-serif;
+   
+}
+.aside-right{
+    float: right;
+    width: 35%;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 12%;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+.aside-img{
+    width: 500px;
+    max-width: 100%;
+    
+}
+.aside-left h2{
+    font-size: 27px;
+}
+.aside-left h6{
+    font-size: 16px;
+}
+/*About*/
+#about{
+    width: 96%;
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+}
+#about h1{
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#about hr{
+    width: 4%;
+    color: red;
+    background-color: red;
+    height: 5px;
+    margin-left: 48%;
+    top: 10px;
+}
+#about-content h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#about-content p{
+    text-align: justify;
+    padding: 30px 50px;
+    margin-bottom: 100px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/*blog*/
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+#card{
+    margin-left: 10%;
+    margin-top: 80px;
+    border: 1px solid black;
+    width: 300px;
+}
+#card img{
+   width: 300px;
+}
+#card .card-body {
+    padding: 20px;
+    width: 300px;
+}
+#card .card-body h5 {
+    margin-bottom: .75rem;
+}
+#card .card-body p {
+    cursor: pointer;
+}
+#card .card-body button{
+    background-color: #030507;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*clients*/
+.client{
+    padding-top: 80px;
+    padding-left: 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/*contact*/
+.contact{
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 60px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/*login*/
+#login{
+    background: #fad900;
+    height: 360px;
+    padding: 40px;
+}
+.box{
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    padding : 30px;
+    margin-left: 25%;
+   
+}
+.box input[type="Email"] , input[type="password"]
+{
+   width: 80%;
+   margin-bottom: 20px;
+   border-radius: 4px;
+}
+.box input[type="submit"]{
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
+.box label{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+/*footer*/
+footer {
+    background-color: #6FC9C9;
+    padding: 90px;
+    height: 100px;
+    margin-top: 90px;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+footer ul{
+    list-style:none ;
+}
+footer .link{
+    float: left;
+    width: 33.33%;  
+}
+footer .social{
+    float: right;
+    width: 33.33%;
+}
+footer .address{ 
+    float: left;
+    width: 33.33%;
+    margin-bottom: 10px;
+}
+.social i{
+    padding-left: 30px;
+    font-size: 30px;
+}
+footer .social ul li{
+    float: left;
+}
+   
+#contact{
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: #F5F5F5;
+    height: 550px;
+}
+#contact h1{
+    padding: 10px;
+    margin-left: 35%;
+}
+.contact-box{
+    height: 50%;
+    padding: 10px;
+    margin-left: 35%;
+}
+.contact-box input[type="Email"] , input[type="number"] , input[type="text"]
+{
+   width: 45%;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   min-height: 30px;
+}
+.contact-box input[type="submit"]{
+    width: 150px;
+    padding: 5px;
+    background-color: #F27232;
+    color: white;
+    float: right;
+    margin-right: 55%;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.contact-box textarea{
+    width: 45%;
+    min-height: 100px;
+    border-radius: 5px;
+    resize: none;
+}
+.contact-box label{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+

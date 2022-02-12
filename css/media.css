@@ -1,0 +1,46 @@
+@media(max-width:768px){
+    .top-header{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+}
+@media (max-width: 640px){
+    .aside-left{
+        float: none;
+    }
+    .aside-right{
+        float: none;
+    }
+}
+@media (max-width: 375px){
+    .social{
+        clear: both;
+        float: none;
+    }
+    .aside-img{
+        width: 270px;
+    }
+    .aside-left{
+        width: 100%;
+    }
+    .aside-right{
+        width: 100%;
+    }
+    .aside{
+        padding: 40px 30px;
+    }
+    footer{
+        padding: unset;
+        height: auto;
+    }
+    .social i{
+        width: 100%;
+        float: left;
+    }
+    footer .social{
+        width: 100%;
+        padding: 20px;
+    }
+}
